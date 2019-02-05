@@ -26,6 +26,7 @@ p {
 
 .row.no-gutters {
   margin: 100px;
+  margin-bottom: 100px;
 }
 
 .row.no-gutters {
@@ -47,5 +48,19 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
+}
+
+#elonmusk {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-bottom: auto;
 }
 
