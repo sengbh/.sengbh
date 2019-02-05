@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="assets/css/body-background-picture.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
 </head>
 
 <body>
@@ -28,32 +30,37 @@
     </nav>
     <main class="page cv-page">
         <section class="portfolio-block block-intro border-bottom">
-            <div>
-                <div class="jumbotron">
-                    <div class="row">
-                        <div class="col"><img src="assets/img/avatar/cat.png" style="height: 400px;width: 400px;"></div>
-                        <div class="col">
-                            <div class="contact-info portfolio-info-card">
-                                <h2>Contact Info</h2>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                                    <div class="col-9"><span>11/17</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                    <div class="col-9"><span>Bunrith Seng</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
-                                    <div class="col-9"><span>+1 513-372-0208</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                    <div class="col-9"><span>sengbh@ieee.org</span></div>
-                                </div>
+            <div></div>
+            <div class="group">
+                <div class="row" style="font-size: 20px;">
+                    <div class="col-md-6" id="background-info">
+                        <div class="container">
+                            <div></div>
+                            <div class="border rounded-circle" data-bs-hover-animate="bounce" id="photo" style="background-image: url(&quot;assets/img/avatar/cat.png&quot;);width: 150px;height: 150px;"></div>
+                            <h4 data-aos="zoom-in" data-aos-delay="150">Bunrith Seng</h4>
+                            <p class="shadow-none" style="font-size: 18px;">Quietly curious with Network and Cyber Security || Exceptional in Software development andEngineering || Blockchain enthusiast</p>
+                        </div>
+                        <div class="text-left contact-info portfolio-info-card">
+                            <h2 class="text-center">Contact Info</h2>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-happy icon"></i></div>
+                                <div class="col-9"><span>Mood</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-person icon"></i></div>
+                                <div class="col-9"><span>Bunrith Seng</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                                <div class="col-9"><span>+1 513 372 0208</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-ios-email icon"></i></div>
+                                <div class="col-9"><span>sengbh@ieee.org</span></div>
                             </div>
                         </div>
-                    </div><a class="btn btn-primary" role="button" href="#" id="resume">resume in PDF form</a></div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="portfolio-block cv">
@@ -129,8 +136,8 @@
                     </div>
                 </div>
                 <div class="group">
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row" id="skill-section">
+                        <div class="col-auto col-md-6">
                             <div class="skills portfolio-info-card">
                                 <h2>Skills</h2>
                                 <h3>HTML/CSS</h3>
@@ -190,6 +197,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
