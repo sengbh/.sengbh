@@ -20,3 +20,32 @@ p {
   font-size: 1rem;
 }
 
+.col-md-6.col-lg-4.item.zoom-on-hover {
+  margin: 30px;
+}
+
+.row.no-gutters {
+  margin: 100px;
+}
+
+.row.no-gutters {
+  float: left;
+}
+
+#skill-section {
+}
+
+#background-info {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 100px;
+  border-bottom: 30px;
+}
+
+#photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
