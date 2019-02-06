@@ -7,7 +7,9 @@
     <title>Home - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
     <link rel="stylesheet" href="assets/css/body-background-picture.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -18,49 +20,43 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white bounce animated portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="index.html">Home</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
+        <div class="container"><a class="navbar-brand logo" href="index.html"><i class="typcn typcn-home-outline"></i></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html">Resume</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container" data-bs-hover-animate="swing">
-                <div class="avatar" style="background-image: url(assets/img/avatar/cat.png);"></div>
+        <section id="about-section" class="portfolio-block block-intro">
+            <div class="container">
+                <div data-aos="zoom-out-down" data-aos-delay="200" class="avatar" style="background-image: url(&quot;assets/img/avatars/cat.png&quot;);background-position: center;background-size: cover;"></div>
                 <div class="about-me">
                     <p>Hello! Call me Bun. &nbsp;</p><a class="btn btn-outline-primary" role="button" href="about.html" id="about">About</a></div>
             </div>
         </section>
         <section class="portfolio-block photography">
             <div class="container">
-                <div class="row no-gutters justify-content-center align-items-center">
+                <div class="row no-gutters justify-content-center align-items-center" id="row1">
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"><div><p>Arts</p></div></a></div>
-                </div>
-                <div class="row no-gutters justify-content-center align-items-center">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"><div><p>Arts</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/image2.jpg"><div><p>Ordinary People</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image3.jpg"><div><p>Just Austin</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/ocean_background.jpg"><div><p>Arts</p></div></a></div>
                 </div>
             </div>
         </section>
         <section class="portfolio-block skills">
             <div class="container">
-                <div class="jumbotron">
+                <div class="jumbotron" id="in-jumbotron">
                     <p style="font-size: 30px;"><strong>Greatest Imagination..</strong></p>
                 </div>
             </div>
         </section>
         <section>
-            <h1 class="text-center" id="inspirational-people"><strong>Inspirational Gangs</strong></h1>
+            <h2 class="text-center" id="inspirational-people"><strong>Inspirational Gangs</strong></h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
