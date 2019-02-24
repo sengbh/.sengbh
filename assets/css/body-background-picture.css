@@ -67,9 +67,6 @@ p {
   margin-bottom: 100px;
 }
 
-#elonmusk:hover {
-}
-
 #div-contact:hover {
   background-color: rgb(240,241,235);
 }
@@ -105,5 +102,14 @@ p {
 
 .team-clean {
   margin-top: 200px;
+}
+
+#contact-container {
+  max-width: 800px;
+}
+
+head title {
+  display: none;
+  visibility: hidden;
 }
 
