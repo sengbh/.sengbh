@@ -4,64 +4,97 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Home</title>
+    <meta property="og:image" content="assets/img/avatars/bun.png">
+    <meta property="hello" content="A personal portfolio">
+    <meta name="title" content="Home">
+    <meta name="description" content="sengbh">
+    <link rel="icon" type="image/png" sizes="357x347" href="assets/img/avatars/bun.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/typicons.min.css">
     <link rel="stylesheet" href="assets/css/body-background-picture.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/fakeLoader.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/Team-Clean.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white bounce animated portfolio-navbar gradient" id="navba" style="margin-bottom: 30px;">
+<body><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/js/fakeLoader.min.js"></script>
+<script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    timeToHide:1200,
+                    bgColor:"#e67e22",
+                    spinner:"spinner5"
+                });
+            });
+</script>        <div class="fakeloader"></div>
+
+ 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/fakeLoader.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    zIndex:"999",
+                    timeToHide:600,
+                    bgColor:"#b3b3ff",
+                    spinner:"spinner3"
+                });
+            });
+        </script>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" id="navba" style="margin-bottom: 30px;">
         <div class="container"><a class="navbar-brand logo" href="index.html"><i class="typcn typcn-home-outline"></i></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html">Resume</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
         </div>
         </div>
     </nav>
     <main class="page lanidng-page">
-        <section id="about-section" class="portfolio-block block-intro">
-            <div class="container">
-                <div data-aos="zoom-out-down" data-aos-delay="200" class="avatar" style="background-image: url(&quot;assets/img/avatars/profile-bun.jpg&quot;);background-position: center;background-size: cover;"></div>
+        <section class="shadow-sm portfolio-block block-intro" id="about-section">
+            <div class="container" data-aos="zoom-in-down" data-aos-delay="200">
+                <div class="avatar" style="background-image: url(&quot;assets/img/avatars/bun.png&quot;);background-position: center;background-size: cover;"></div>
                 <div class="about-me">
-                    <p>Hello! Call me Bun. &nbsp;</p><a class="btn btn-outline-primary" role="button" href="about.html" id="about">About</a></div>
+                    <p>Hello! Call me Bun. &nbsp;</p><a class="btn btn-outline-primary" role="button" href="resume.html">resume</a></div>
             </div>
         </section>
         <section class="portfolio-block photography">
             <div class="container">
-                <div class="row no-gutters justify-content-center align-items-center" id="row1">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/image2.jpg"><div><p>Ordinary People</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/image3.jpg"><div><p>Just Austin</p></div></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/ocean_background.jpg"><div><p>Arts</p></div></a></div>
+                <div class="row no-gutters justify-content-center align-items-center" data-aos="zoom-in-down" data-aos-delay="500" id="row1">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="photography.html"><img class="img-fluid image" src="assets/img/nature/image5.jpg"><div><p>Photography</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="ordinary-people.html"><img class="img-fluid image" src="assets/img/nature/image2.jpg"><div><p>Awesome People</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="projects.html"><img class="img-fluid image" src="assets/img/nature/image3.jpg"><div><p>Projects</p></div></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="arts.html"><img class="img-fluid image" src="assets/img/nature/image8.jpg"><div><p>Arts/Fitness</p></div></a></div>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block skills">
+        <section class="shadow-lg portfolio-block skills">
             <div class="container">
                 <div class="jumbotron" id="in-jumbotron">
                     <p style="font-size: 25px;opacity: 1;"><strong>Greatest Imagination...</strong></p>
                 </div>
             </div>
         </section>
-        <section>
-            <h2 class="text-center" id="inspirational-people"><strong>Inspirational Gangs</strong></h2>
+        <section class="bg-light" data-aos="slide-up" data-aos-delay="50">
+            <h2 class="text-center" id="inspirational-people"><strong>Inspirational</strong></h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
                         <div class="card-header bg-transparent border-0">
-                            <div id="div-elonmusk"><img class="rounded-circle img-fluid border d-md-flex" src="assets/img/inspirational/elonmusk.jpg" data-aos="zoom-in-up" data-aos-delay="200" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
+                            <div id="div-elonmusk"><img class="rounded-circle img-fluid border d-md-flex" src="assets/img/inspirational/elonmusk.jpg" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Elon Musk</h3>
@@ -72,7 +105,7 @@
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
                         <div class="card-header bg-transparent border-0">
-                            <div><img class="rounded-circle img-fluid border" src="assets/img/inspirational/Aaron.jpg" data-aos="zoom-in-up" data-aos-delay="200" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
+                            <div><img class="rounded-circle img-fluid border" src="assets/img/inspirational/Aaron.jpg" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Arron Swartz</h3>
@@ -83,7 +116,7 @@
                 <div class="col-md-4">
                     <div class="card special-skill-item border-0">
                         <div class="card-header bg-transparent border-0">
-                            <div><img class="rounded-circle img-fluid border" src="assets/img/inspirational/doge.jpg" data-aos="zoom-in-up" data-aos-delay="200" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
+                            <div><img class="rounded-circle img-fluid border" src="assets/img/inspirational/doge.jpg" id="elonmusk" style="width: 160px;opacity: 1;height: 160px;"></div>
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Doge</h3>
@@ -94,24 +127,54 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" style="padding-top: 70px;background-color: #b2b2b2;">
         <div class="container">
-            <div class="links"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+            <div class="links"><a href="index.html">Home</a><a href="contact.html">Contact</a></div>
             <div class="social-icons"><a href="#" id="facebook-buttom"><i class="icon ion-social-facebook"></i></a><a href="#" id="instagram-buttom"><i class="icon ion-social-instagram-outline"></i></a><a href="https://github.com/sengbh" id="github-buttom"><i class="icon ion-social-github"></i></a>
                 <a
                     href="https://www.linkedin.com/in/sengbh/" id="linkedin-buttom"><i class="icon ion-social-linkedin"></i></a>
             </div>
             <div>
-                <p>&nbsp;@2019 Bunrith Seng. &nbsp;All Rights Reserved.</p>
+                <p>&nbsp;<i class="fa fa-copyright"></i>2019 Bunrith Seng. &nbsp;All Rights Reserved.</p>
             </div>
         </div>
-    </footer>
+    </footer><script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+      $(function() {
+        $('img').on('click', function() {
+          $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+          $('#enlargeImageModal').modal('show');
+        });
+      });
+    });
+</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/fakeLoader.js"></script>
+    <script src="assets/js/fakeLoader.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 
